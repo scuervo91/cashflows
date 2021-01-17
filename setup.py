@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     keywords='cashflow investments bonds depreciation loan irr',
     url="https://github.com/scuervo91/cashflows2",
-    download_url="https://github.com/scuervo91/cashflows2/archive/v0.1.tar.gz",
+    download_url="https://github.com/scuervo91/cashflows2/archive/v0.0.1.tar.gz",
     packages=setuptools.find_packages(),
     include_package_data = True,
     package_data = {'':['*.csv','*.json']},
