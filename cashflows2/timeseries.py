@@ -47,7 +47,7 @@ Functions in this module
 
 import numpy as np
 import pandas as pd
-
+from datetime import date
 ## Add Classes
 
 class TimeSeries:
@@ -138,8 +138,7 @@ class TimeSeries:
             end=self.end, 
             periods=self.periods,
             freq=self.freq,
-            chgpts=self.chgpts, 
-            name = self.name
+            chgpts=self.chgpts
         )
         return ch
 
@@ -147,7 +146,7 @@ class CashFlow(TimeSeries):
     def __init__(self,**kwargs):
         super(CashFlow, self).__init__(**kwargs)
         
-class InteresRate(TimeSeries):
+class InterestRate(TimeSeries):
     def __init__(self,**kwargs):
         super(InterestRate, self).__init__(**kwargs)
 
