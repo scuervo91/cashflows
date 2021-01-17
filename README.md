@@ -1,5 +1,6 @@
-# cashflows
+# cashflows2
 Financial investment modeling and advanced engineering economics using Python.
+This is a fork of the original repository *https://github.com/jdvelasq/cashflows*. It is added a class for TimeSeries and make available in pypi the version 0.0.5 which was not updated on Pypi. 
 
 **Binary Installers:** https://pypi.org/project/cashflows
 
