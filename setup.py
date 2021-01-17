@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="cashflows2", # Replace with your own username
-    version="v0.1",
+    version="v0.0.1",
     author="Juan D. Velasquez & Ibeth K. Vergara. Forked Santiago Cuervo",
     author_email="scuervo91@gmail.com",
     description="'Investment modeling and advanced engineering economics using Python'",
