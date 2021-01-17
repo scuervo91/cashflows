@@ -18,8 +18,8 @@ Functions in this module
 
 import pandas as pd
 
-from cashflows.timeseries import *
-from cashflows.common import *
+from cashflows2.timeseries import *
+from cashflows2.common import *
 
 
 def after_tax_cashflow(cflo, tax_rate):

@@ -23,8 +23,8 @@ Functions in this module
 import pandas as pd
 
 #cashflows.
-from cashflows.timeseries import *
-from cashflows.common import *
+from cashflows2.timeseries import *
+from cashflows2.common import *
 
 
 def savings(deposits, nrate, initbal=0):

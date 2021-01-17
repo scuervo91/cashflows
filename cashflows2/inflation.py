@@ -21,9 +21,9 @@ Functions in this module
 import pandas as pd
 
 # cashflows.
-from cashflows.timeseries import *
-from cashflows.rate import *
-from cashflows.common import *
+from cashflows2.timeseries import *
+from cashflows2.rate import *
+from cashflows2.common import *
 
 
 def const2curr(cflo, inflation, base_date=0):

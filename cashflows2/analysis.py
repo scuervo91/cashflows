@@ -35,11 +35,11 @@ import numpy as np
 import pandas as pd
 
 # cashflows.
-from cashflows.timeseries import *
-from cashflows.rate import *
-from cashflows.common import _vars2list
-from cashflows.tvmm import tvmm
-# from cashflows.utilityfun import exp_utility_fun, log_utility_fun, sqrt_utility_fun
+from cashflows2.timeseries import *
+from cashflows2.rate import *
+from cashflows2.common import _vars2list
+from cashflows2.tvmm import tvmm
+# from cashflows2.utilityfun import exp_utility_fun, log_utility_fun, sqrt_utility_fun
 
 
 
